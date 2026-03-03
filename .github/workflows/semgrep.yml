@@ -16,5 +16,5 @@ jobs:
       - name: Run Semgrep
         uses: returntocorp/semgrep-action@v1
         with:
-            config: "p/default"
-            generateSarif: "1" # Generates a standard security report format
+          config: "p/default"
+          generateSarif: "1" # Generates a standard security report format
